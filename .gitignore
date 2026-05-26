@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+*.egg-info/
+
+# ChromaDB
+backend/knowledge_base/chroma_db/
+
+# Google Calendar secrets
+backend/calendar/credentials.json
+backend/calendar/token.json
+
+# Node
+node_modules/
+.next/
+frontend/.env.local
+frontend/out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/settings.json
