@@ -18,8 +18,9 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "https://*.vercel.app",
+    "http://localhost:3000",
+    "https://*.vercel.app",
+    "https://juris-ai-ecru.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
